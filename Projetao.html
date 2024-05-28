@@ -3,58 +3,67 @@
         <title>
             Projeto HTML
         </title>
-        <style>
-            body
-            {
-                margin: 0%;
-            }
-            #menu
-            {
-                width: 100%;
-                height: 30px;
-                background-color: rgb(136, 0, 255);
-                color: white;
-                position: fixed;
-                display: flex;
-                justify-content: space-around;
-                font-size: 25px;
-                padding: 5px;
-            }
-            #a
-            {
-                font-size: 20px;
-                position:absolute;
-                top: 60px;
-            } 
-            a:link {
-                color: white;
-                text-decoration: none;
-            }
-        </style>
+        <link rel="stylesheet" href="treco.css">
+        <link rel="icon" href="Imagens/faviconn.png" type="image/png">
     </head>
     <body>
         <div id="menu">
-            <div><a href=""> Atores </a>  </div>
-            <div><a href="https://www.w3schools.com/css/css_link.asp"> Escritores </a>  </div>
-            <div><a href="https://www.w3schools.com/css/css_link.asp"> Diretores </a>  </div>
+            <div><a href="">Página inicial</a> </div>
+            <div><a href="menu.html" target="_blank">Menu</a></div>
+            <div><a href="sobre.html" target="_blank">Sobre</a></div>
         </div>
+        <div id="content">
         <div id="a">
-        projeto: <br>
-        -site sobre viados gays homossexualismo
+            <br>
+            <h1>Ballande-Massari</h1>
+            <p>Sua experiência gastronômica</p>
+        </div>
+        <hr>
         <br>
-        pagina inicial: 
-        <br>
-        - conheça os topicos
-        - fale conosco(forms)
-        <br>
-        página atores:<br>
-        - alguns atores gays
-        <br>
-        página escritores:<br>
-        - alguns autores e suas obras principais<br>
-        página diretores:<br>
-        - diretores e seus filmes
-        <br> 
+        <img src="Imagens/carne.jpeg" width="100%">
+        <br><br>
+        <div>Localizado no centro gastronômico da cidade,
+            <b>Ballande-Massari</b> é o ideal restaurante de comida italiana,
+            com chefes de cozinha renomados e reconhecimento internacional.
+            <br><br>
+            <b>Ballande-Massari</b> é mais do que um restaurante italiano – 
+            é uma experiência autêntica que transporta você diretamente 
+            para o coração da <i>Itália</i>. Localizado no centro da cidade, nosso 
+            restaurante combina a tradição culinária italiana com um ambiente 
+            acolhedor e elegante, ideal para todas as ocasiões.
+            <br><br>
+            Nós prezamos pela <u>qualidade</u> e <u>autenticidade</u> de nossos pratos. 
+            Nossos chefs são mestres na arte da culinária italiana e utilizam 
+            apenas os ingredientes mais frescos e de alta qualidade, muitos deles 
+            importados diretamente da <i>Itália</i>. Do clássico <i><mark>Spaghetti alla Carbonara</mark></i> 
+            ao delicioso <i><mark>Risotto ai Funghi</mark></i>, cada prato é preparado com paixão e 
+            atenção aos detalhes.
+            <br><br><br>
+            <img src="Imagens/massa.jpg" width="50%">
+            <img src="Imagens/suina.jpg" width="40%">
+            <br><br>
+            <h2>Saiba mais sobre o <b>Ballande-Massari</b> e nossa história!</h2>
+            <br><hr><br>
+            <h2>Fale conosco!</h2>
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input id="nome" name="nome" type="text" required>
+                <br><br>
+                <label for="email">Email:</label><br>
+                <input id="email" name="name" type="email" required>
+                <br><br>
+                <label for="motivo">Porque deseja nos contatar?</label><br>
+                <textarea id="motivo" name="motivo" rows="2"></textarea>
+                <br><br>
+                <input type="button" value="Enviar">
+
+
+
+
+            </form>
+            
+
+        </div>
     </div>
     </body>
 </html>
