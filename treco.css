@@ -1,6 +1,7 @@
 .content
 {
     margin: 10px;
+    
 }
 #menu
 {
@@ -38,29 +39,25 @@
 #a p{
     margin-top:-40px;
 }
+
+
 .texto
 {
-    height: 200px;
-    width: 200px;
-    position: relative;
-    left: 300px;
-    top:-200px;
+    width: 250px;
+    margin-left: 20px;
 }
+
 
 .prato
 {
-    position: relative;
-    top:-150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
-#suina
+.secao
 {
-    position: relative;
-    top:-200px;
-}
-
-#massa
-{
-    position: relative;
-    top:-400px;
+    margin-bottom: 30px;
+    height: auto;
 }
