@@ -1,3 +1,4 @@
+
 .content
 {
     margin: 10px;
@@ -61,3 +62,17 @@
     margin-bottom: 30px;
     height: auto;
 }
+
+#c
+{
+    margin-left: 50vh;
+    margin-right: 60vh;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 80px;
+}
+
