@@ -2,7 +2,7 @@
 .content
 {
     margin: 10px;
-    
+    padding-top: 100px;
 }
 #menu
 {
@@ -32,9 +32,10 @@
     text-decoration: none;
 }
 
-#a
+.a
 {
     font-size: 30px;
+    margin-top:-80px;
 }
 
 #a p{
@@ -65,14 +66,33 @@
 
 #c
 {
-    margin-left: 50vh;
-    margin-right: 60vh;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 20vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     border: 1px black solid;
     border-radius: 20px;
-    padding: 80px;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
-
+a :link
+{
+    color: rgb(34, 18, 8);
+    text-decoration: none;
+}
+#titulo
+{
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: -50px;
+}
+#menucomida
+{
+    margin-left:50px;
+}
+#texto
+{
+    font-size: 20px;
+}
