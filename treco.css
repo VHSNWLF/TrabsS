@@ -1,7 +1,10 @@
-
+body
+{
+    background-color: rgb(255, 249, 240);
+}
 .content
 {
-    margin: 10px;
+    margin: 5%;
     padding-top: 100px;
 }
 #menu
@@ -47,6 +50,7 @@
 {
     width: 250px;
     margin-left: 20px;
+    font-size: 17px;
 }
 
 
@@ -88,11 +92,22 @@ a :link
     margin-left: 40px;
     margin-top: -50px;
 }
-#menucomida
+#menucomida a :link
 {
     margin-left:50px;
+    color: rgb(34, 18, 8);
+    text-decoration: none;
 }
 #texto
 {
     font-size: 20px;
+    width: 70%;
+}
+.rodape
+{
+    background-color: rgb(150, 90, 65);
+    padding:0px 0;
+    margin: 0px;
+    top: 0;
+    left: 0;
 }
