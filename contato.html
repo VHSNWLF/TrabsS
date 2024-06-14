@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Contato</title>
-    <link rel="stylesheet" href="treco.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="Imagens/favicon.png" type="image/png">
     <style>
         h3
@@ -65,16 +65,16 @@
         <h2>Fale conosco!</h2>
             <form>
                 <label for="nome">Nome:</label><br>
-                <input id="nome" name="nome" type="text" required>
+                <input id="nome" name="nome" type="text" tabindex="1" required>
                 <br><br>
                 <label for="email">Email:</label><br>
-                <input id="email" name="name" type="email" required>
+                <input id="email" name="name" type="email" tabindex="2" required>
                 <br><br>
                 <label for="motivo">Porque deseja nos contatar?</label><br>
-                <textarea id="motivo" name="motivo" rows="2"></textarea>
+                <textarea id="motivo" name="motivo" rows="2" tabindex="3"></textarea>
                 <br><br>
                 <label for="eba">Como nos achou?</label><br>
-                <select>
+                <select tabindex="4">
                     <option></option>
                     <option>Internet</option>
                     <option>Indicação</option>
@@ -83,9 +83,9 @@
                 </select>
                 <br><br>
                 <label for="Opiniao">Como você avalia o site?</label><br>
-                0<input type="range">10
+                0<input type="range" tabindex="5">10
                 <br><br>
-                <input type="submit" value="Enviar" onclick="alert('Mensagem enviada com sucesso!')">
+                <input type="submit" value="Enviar" onclick="alert('Mensagem enviada com sucesso!')" tabindex="6">
         </form>
     </div>
     </div>
@@ -96,7 +96,7 @@
         <h3 position="center">Saiba mais sobre o Ballande-Massari e nossa história!</h3>
 
         <ul>
-            <li><a href="">Fale conosco! <small>(Alt + C)</small></a><br></li><br>
+            <li><a href="">Fale conosco!</a><br></li><br>
             <li>Cecília Pignatelli de Oliveira - cl203229@g.unicamp.br</li>
             <li>Felipe Cassio Rocha de Oliveira Lima - cl203262@g.unicamp.br</li>
         </ul>
