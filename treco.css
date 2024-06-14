@@ -132,9 +132,9 @@ a :link
     text-decoration: none;
 }
 
-.rodape hr
+.rodape li
 {
-    color: black;
+    color:rgb(252, 235, 207);
 }
 
 #menuBaixo
