@@ -1,12 +1,17 @@
 body
 {
-    background-color: rgb(255, 249, 240);
+    background-color: white;
 }
 .content
 {
     margin: 5%;
     padding-top: 100px;
     width: 70%;
+    background-color: rgb(255, 249, 240);
+    padding: 50px;
+    padding-top: 70px;
+    box-shadow: -5px 5px 10px rgb(224, 184, 102);
+    margin-top: 100px;
 }
 #menu
 {
